@@ -1,0 +1,6 @@
+DB_USER=HallieB
+DB_PASS=Z8f9L88SUBusMdm
+DB_HOST=cluster0.9uzts.mongodb.net
+DB_NAME=createUser
+
+PORT=4000
