@@ -1,0 +1,40 @@
+@url = http://localhost:4000
+
+GET {{url}}/user
+
+###
+
+POST {{url}}/user/register 
+Content-Type: application/json
+
+{
+    "username": "momYay3",
+    "email": "socksStuff@aol.com"
+}
+
+###
+POST {{url}}/user/login
+Content-Type: application/json
+
+{
+    "username": "momYay3",
+    "email": "socksStuff@aol.com"
+}
+
+###
+GET {{url}}/article
+
+###
+POST {{url}}/article
+Content-Type: application/json
+
+{
+    "heading": "Dancing",
+    "content": "She's a dancing machine",
+    "photoUrl": "https://miro.medium.com/focal/1200/675/49/55/1*rLaMpAivyArSLpGeLHX03g.jpeg",
+    "author": "Hallie B"
+   
+}
+
+###
+DELETE {{url}}/article/62a701cdeb4f3d6b5101a8b0
