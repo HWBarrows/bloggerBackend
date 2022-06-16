@@ -8,8 +8,8 @@ POST {{url}}/user/register
 Content-Type: application/json
 
 {
-    "username": "momYay3",
-    "email": "socksStuff@aol.com"
+    "username": "momYay4<>",
+    "email": "socksStuffmore@aol.com"
 }
 
 ###
@@ -17,24 +17,35 @@ POST {{url}}/user/login
 Content-Type: application/json
 
 {
-    "username": "momYay3",
-    "email": "socksStuff@aol.com"
+    "username": "momYay4<>",
+    "email": "socksStuffmore@aol.com"
 }
 
 ###
-GET {{url}}/article
+GET {{url}}/articles
 
 ###
-POST {{url}}/article
+POST {{url}}/articles
 Content-Type: application/json
 
 {
-    "heading": "Dancing",
-    "content": "She's a dancing machine",
-    "photoUrl": "https://miro.medium.com/focal/1200/675/49/55/1*rLaMpAivyArSLpGeLHX03g.jpeg",
-    "author": "Hallie B"
+    "heading": "Stop working from your dining table and setup a proper workspace;z your back will thank you",
+    "content": ["Halvah pudding marzipan toffee danish gingerbread carrot cake gingerbread. Apple pie gingerbread donut cake chocolate bar tootsie roll. Liquorice tiramisu muffin danish jujubes.", "Apple pie chocolate jelly beans shortbread candy canes chocolate bar dragée. Chocolate ice cream cake jelly chocolate bar toffee biscuit jelly-o dragée. Cookie cake jelly beans candy marzipan chocolate bar jujubes icing."],
+    "photoUrl": "https://cdn.stocksnap.io/img-thumbs/960w/office-work_BL1SOOUWHX.jpg",
+    "author": "T Stark",
+    "topic": "health"
+    
    
 }
 
 ###
-DELETE {{url}}/article/62a701cdeb4f3d6b5101a8b0
+DELETE {{url}}/articles/62a700e74081eae43683a896
+
+###
+PATCH {{url}}/articles/62a8a699d30c6054de0a5782
+Content-Type: application/json
+
+{
+    "photoUrl": "https://cdn.stocksnap.io/img-thumbs/960w/woman-skin_IG8R5XE2WD.jpg"
+}
+
