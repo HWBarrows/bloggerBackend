@@ -16,7 +16,7 @@ function connect() {
     connection.on('connected', () => console.log('[M] connected'))
     connection.on('disconnecting', () => console.log('[M] disconnecting'))
     connection.on('disconnected', () => console.log('[M] disconnected'))
-    connection.on('error', () => console.log('[M] error', error))
+    connection.on('error', () => console.log('[M] error', error.message))
 
     mongoose.connect(connStr)
 }

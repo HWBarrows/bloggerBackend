@@ -29,11 +29,11 @@ POST {{url}}/articles
 Content-Type: application/json
 
 {
-    "heading": "Stop working from your dining table and setup a proper workspace;z your back will thank you",
-    "content": ["Halvah pudding marzipan toffee danish gingerbread carrot cake gingerbread. Apple pie gingerbread donut cake chocolate bar tootsie roll. Liquorice tiramisu muffin danish jujubes.", "Apple pie chocolate jelly beans shortbread candy canes chocolate bar dragée. Chocolate ice cream cake jelly chocolate bar toffee biscuit jelly-o dragée. Cookie cake jelly beans candy marzipan chocolate bar jujubes icing."],
-    "photoUrl": "https://cdn.stocksnap.io/img-thumbs/960w/office-work_BL1SOOUWHX.jpg",
-    "author": "T Stark",
-    "topic": "health"
+    "heading": "random stuff",
+    "content": ["Liquorice pie marshmallow powder liquorice cheesecake jelly chocolate bar macaroo"],
+    "photoUrl": "https://cdn.stocksnap.io/img-thumbs/960w/woman-skin_3AECYIAEDE.jpg",
+    "author": "Summer beauty tips",
+    "topic": "beauty"
     
    
 }

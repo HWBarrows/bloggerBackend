@@ -1,0 +1,16 @@
+version: "1.0"
+
+services:
+  api:
+    build:
+     context: .
+     target: production
+
+    ports: 
+      - 5000:5000
+    environment:
+          DB_USER: "HallieB"
+          DB_PASS: "Z8f9L88SUBusMdm"
+          DB_HOST: "cluster0.9uzts.mongodb.net"
+          DB_NAME: "code_challenge"
+          PORT: 4000
